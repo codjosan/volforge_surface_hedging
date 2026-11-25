@@ -1,0 +1,32 @@
+{
+  "status": "INCOMPLETE",
+  "passed_checks": 11,
+  "total_checks": 23,
+  "candidate_authored_test_methods": 0,
+  "checks": {
+    "candidate_implementations_declared": false,
+    "summary_present": true,
+    "summary_fingerprint_valid": true,
+    "artifact_fingerprints_valid": true,
+    "data_fingerprints_valid": true,
+    "candidate_fingerprints_valid": true,
+    "holdout_fit_validation": false,
+    "holdout_fit_test": false,
+    "no_invalid_surfaces": true,
+    "static_arbitrage_control": true,
+    "hedge_count": false,
+    "hedge_risk_validation": false,
+    "hedge_risk_test": false,
+    "hedge_execution_cost": true,
+    "maximum_drawdown": true,
+    "no_hedge_target_violations": true,
+    "hedge_ledger_reconciliation": true,
+    "scenario_risk_complete": false,
+    "scenario_risk_reconciles": false,
+    "scenario_risk_policy": false,
+    "local_vol_analytic_reproduction": false,
+    "candidate_authored_tests": false,
+    "research_report_complete": false
+  },
+  "note": "Technical validation only; independent human review and actual elapsed time are not certified."
+}

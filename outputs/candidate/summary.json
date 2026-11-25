@@ -1,0 +1,92 @@
+{
+  "run_type": "candidate",
+  "status": "EVALUATED",
+  "data_audit": {
+    "dates": 96,
+    "asset_sessions": 288,
+    "calibration_quotes": 25920,
+    "holdout_quotes": 25920,
+    "usable_calibration_quotes": 24940,
+    "usable_holdout_quotes": 25030,
+    "split_days": {
+      "train": 56,
+      "validation": 20,
+      "test": 20
+    },
+    "first_date": "2024-03-04",
+    "last_date": "2024-07-15"
+  },
+  "fit_by_split": {
+    "train": {
+      "sessions": 168,
+      "invalid_surfaces": 0,
+      "holdout_quote_count": 14605,
+      "holdout_iv_mae": 0.019246577221345,
+      "holdout_premium_wape": 0.013166731886185576,
+      "static_arb_violations": 0,
+      "static_arb_checks": 102816,
+      "static_arb_rate": 0.0
+    },
+    "validation": {
+      "sessions": 60,
+      "invalid_surfaces": 0,
+      "holdout_quote_count": 5205,
+      "holdout_iv_mae": 0.020437628373243304,
+      "holdout_premium_wape": 0.013615806965531116,
+      "static_arb_violations": 0,
+      "static_arb_checks": 36720,
+      "static_arb_rate": 0.0
+    },
+    "test": {
+      "sessions": 60,
+      "invalid_surfaces": 0,
+      "holdout_quote_count": 5220,
+      "holdout_iv_mae": 0.020691710012491434,
+      "holdout_premium_wape": 0.013591325898511272,
+      "static_arb_violations": 0,
+      "static_arb_checks": 36720,
+      "static_arb_rate": 0.0
+    }
+  },
+  "hedging": {
+    "summary": {
+      "train": {
+        "days": 56,
+        "net_return_pct": 3.4573652733136617,
+        "max_drawdown_pct": 0.4818163609882742,
+        "mean_delta_error_usd": 41383.21787985169,
+        "mean_unadjusted_delta_usd": 41383.21787985169,
+        "hedge_cost_usd": 0.0,
+        "option_cost_usd": 1739.1961841244806
+      },
+      "validation": {
+        "days": 20,
+        "net_return_pct": -0.68201527173678,
+        "max_drawdown_pct": 1.3825910956133725,
+        "mean_delta_error_usd": 77751.04396680169,
+        "mean_unadjusted_delta_usd": 77751.04396680169,
+        "hedge_cost_usd": 0.0,
+        "option_cost_usd": 621.7298531914427
+      },
+      "test": {
+        "days": 20,
+        "net_return_pct": 1.8378922084413718,
+        "max_drawdown_pct": 1.0641788071062752,
+        "mean_delta_error_usd": 77489.25903337699,
+        "mean_unadjusted_delta_usd": 77489.25903337699,
+        "hedge_cost_usd": 0.0,
+        "option_cost_usd": 1378.939539881664
+      }
+    },
+    "final_equity": 1046402.3702173406,
+    "hedge_trades": 0,
+    "violations": {},
+    "total_hedge_cost_usd": 0.0,
+    "total_option_execution_cost_usd": 3739.8655771975873,
+    "all_mean_delta_error_usd": 56481.94022161738,
+    "all_mean_unadjusted_delta_usd": 56481.94022161738
+  },
+  "risk_scenario_count": 16,
+  "surface_failures": [],
+  "elapsed_runtime_seconds": 5.6
+}

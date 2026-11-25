@@ -1,0 +1,22 @@
+{
+  "run_utc": "2026-11-24T23:55:18.365095+00:00",
+  "candidate_hashes": {
+    "calibrator.py": "d9df4847856b82ae75fb9ba1b484cb035f4d1dcbd2797719288039028fb7f322",
+    "hedger.py": "1078107e011766c73b12ab9850a33ed65522bd74eeb4abf093ec750509134b7e",
+    "risk.py": "f7ae2992020c814bdc93e05c628e23d7fbdf38a88574cbd1bbf62a72150214e3",
+    "localvol.py": "e89387db2e843dd7e1eacdd5a2640559b74bed540b1e0a3d94e47757f428d5fc"
+  },
+  "data_hashes": {
+    "option_quotes.csv": "1b6c9635e9724458ddbfb63d633801e986b819b691d16bba74b91435348be7ae",
+    "underlying_daily.csv": "ba2eb6dde37fcd9038167aaae93bccaf6f6e97bab42c6079ee7ae1a28d627bb1"
+  },
+  "summary_sha256": "660d1fc4e0e340b78ce7d288f05f19bb5d2a0c1692f93211115c7e95de5fc976",
+  "artifact_hashes": {
+    "summary.json": "660d1fc4e0e340b78ce7d288f05f19bb5d2a0c1692f93211115c7e95de5fc976",
+    "hedge_equity.csv": "e5f5af5026f0d427f9b1c301560803cc77f6e92028c2a5085007a446055525b2",
+    "hedge_trades.csv": "2fd79568cd38d3ad6d24454f589daf41c33e96a9ee6e36cb6061954bb41b2f8c",
+    "risk_matrix.json": "fe7375c836f48aeb2466ba5bb7fc6396b05e86b3a83910f498091182b51944c4",
+    "sample_surfaces.csv": "50afde46b481797a604cfa1be69472cbda33da2a58795f2197843f6fe3056205",
+    "hedge_summary.json": "7169145f6a3bb08d5532b955c6b2236e3bf30d633d6727bdd13d1611df06d1e9"
+  }
+}
